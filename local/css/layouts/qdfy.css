@@ -1,0 +1,227 @@
+/**
+ * $JA#COPYRIGHT$
+
+
+// ---------------------------------------------------------
+// MAIN TEMPLATE STYLES
+// ---------------------------------------------------------
+*/
+
+
+body.t3-qdfy{
+  background-color: #F6F8FC;
+}
+
+.t3-qdfy .navbar{
+  width:100%;
+}
+
+.t3-qdfy .t3-navbar{
+  background-color: #2579B9;
+  border-radius: 4px;
+}
+
+.t3-qdfy .navbar-nav > li > a {
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.t3-qdfy .navbar-nav > li {
+  border-right: none;
+}
+
+.t3-qdfy .navbar-nav > .active > a, .t3-qdfy .navbar-nav > .active > a:hover, .t3-qdfy .navbar-nav > .active > a:focus {
+  background-color: #1F67A3;
+  color: #fff;
+}
+
+.t3-qdfy .navbar-nav > li > a:hover,
+.t3-qdfy .navbar-nav > li > a:focus,
+.t3-qdfy .navbar-nav > li > a:active {
+  background-color:#1F67A3;
+  color: #fff ;
+}
+
+/* Fluid images and objects */
+.itemFullText img {
+  max-width: 100%!important;
+  height: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .logo{
+    margin:0 0 10px 0;
+  }
+
+  .logo,.logo a {
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .logo-image img {
+    max-height: 100px;
+    max-width: 100%;
+  }
+}
+
+#t3-content{
+  background: #fff;
+}
+
+.t3-footer{
+  margin-top:10px;
+  background: #3d4045;
+  color: #96a1a3;
+  padding: 25px 0;
+}
+
+.popover-content img {
+  max-width:150px;
+}
+
+/* 快捷导航----------------------------------------------------------------------------------------------*/
+#Mod209{
+  padding:0;
+  border-top: 0;
+}
+
+#Mod209 .module-ct{
+background: #fff;
+}
+
+
+#Mod209  ul{
+  overflow:hidden;
+}
+
+#kuaijie li{
+  float:left;
+  width:50%;
+  text-align:center;
+  list-style: none;
+}
+
+#kuaijie .image-src{
+  width:100%;
+  height:50px;
+  margin:0;
+}
+
+/*#Mod209 .menu-sidebar a.level1 > span{background:none;}*/
+
+/*#Mod209 .menu-sidebar li.level1 {*/
+  /*border: none;*/
+/*}*/
+
+#kuaijie li a{
+  border-top: 1px dotted #ddd;
+  border-right: 1px dotted #ddd;
+  padding:10px 0;
+}
+
+#kuaijie li a:hover{
+  background:#ddd;
+  color: #FFF
+}
+
+#Mod209 .module-title{
+  text-align:center;
+  background:#2579B9;
+  margin:0;
+  padding:10px 0;
+  color: #FFF;
+  height: 58px;
+  line-height: 38px;
+  width:100%;
+  font-size: 24px;
+  border-radius: 5px 5px 0 0;
+}
+
+#Mod209 .module-title i{
+  padding-right:10px;
+}
+
+article {
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+
+
+/*------------- 坐诊表---------------------------------------------------------------------*/
+#zuozhenbiao h4 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #006D64;
+    margin-top: 40px;
+}
+
+#zuozhenbiao h4 em{
+    padding:0 8px;
+}
+
+#zuozhenbiao dt{
+    margin-top: 8px;
+}
+
+#zuozhenbiao dl{
+  padding: 10px 5px 0 5px;
+  margin: 0;
+  border-bottom: 1px dashed #e0e0e0;
+}
+
+#zuozhenbiao dd li{
+    padding: 0;
+    margin: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+
+#zuozhenbiao dd li:hover {
+    border-color: #2579B9;
+}
+
+#zuozhenbiao dd li a{
+    font-family: "SimSun","Arial Narrow";
+    margin: 0 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* Tables (Needed for System Markup-------------------------------------------------------*/
+
+.itemFullText   table { width: 100%; }
+
+.itemFullText   table  th {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.itemFullText  table  th,
+.itemFullText  table  td { padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+}
+
+.itemFullText  table  tbody,
+.itemFullText  table  tfoot { font-size: 12px; }
+
+.itemFullText  table  .bold { font-weight: bold; }
+.itemFullText  table  .center { text-align: center; }
+
+.itemFullText  table  td * {
+    vertical-align: middle;
+
+}
+
+.itemFullText  table  tfoot { font-style: italic; }
+
+.itemFullText  table  caption {
+    font-size: 11px;
+    text-align: left;
+    font-style: italic;
+}
