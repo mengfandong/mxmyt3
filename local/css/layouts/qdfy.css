@@ -65,7 +65,13 @@ body.t3-qdfy{
 }
 
 #t3-content{
-  background: #fff;
+    background: #fff;
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid #eaeaea;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
 }
 
 .t3-footer{
@@ -73,6 +79,32 @@ body.t3-qdfy{
   background: #3d4045;
   color: #96a1a3;
   padding: 25px 0;
+}
+
+.t3-footer a, .t3-footer a:hover{
+    color: #96a1a3;
+}
+
+#footer-social li{
+    width: 40px;
+    height: 40px;
+    background-color: #343a40;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#footer-social li:hover{
+    background-color: #039be5;
+}
+
+#footer-social li a {
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+#footer-social li a:hover {
+    color: white;
 }
 
 .popover-content img {
@@ -224,4 +256,19 @@ article {
     font-size: 11px;
     text-align: left;
     font-style: italic;
+}
+
+/*------------- 侧边栏菜单---------------------------------------------------------------------*/
+.module-ct  ul.nav-child{
+    padding-left:10px;
+}
+
+
+.module-ct  ul.nav-child li a:before{
+    content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    padding-right: 0.5em;
 }

@@ -27,10 +27,15 @@ defined('_JEXEC') or die;
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 copyright <?php $this->_c('copyright') ?>">
-					<span>© 1898-<?php echo date(Y); ?>   青岛大学附属医院 版权所有. 鲁ICP备09015660号</span>
+					<span>© 1898-<?php echo date(Y); ?>   青岛大学附属医院 版权所有. 鲁ICP备09015660号</span> | <span><script src="http://s15.cnzz.com/stat.php?id=5209140&web_id=5209140&online=2" language="JavaScript"></script></span>
 				</div>
-                <div class="col-md-4">
-       <div><a id="foot-social"  role="button" data-toggle="popover" data-trigger="hover"  data-placement="top">弹出框</a></div>
+                <div class="col-md-4 hidden-sm hidden-xs text-left">
+       <ul id="footer-social" class="list-inline">
+<li><a title="欢迎关注我们的微信" id="foot-social"  role="button" data-toggle="popover" data-trigger="hover"  data-placement="top"><i class="fa fa-wechat"></i></a></li>
+
+<li><a title="欢迎关注我们的微博" href="http://weibo.com/qdumh" target="_blank"><i class="fa fa-weibo"></i></a></li>
+
+       </ul>
                 </div>
 			</div>
 		</div>
